@@ -11,7 +11,7 @@ usage:
 > ./bin/*executables*  
 
 
-'''
+```
 ├── CMakeLists.txt  
 ├── README.md  
 ├── include  
@@ -52,5 +52,5 @@ usage:
     ├── MAIN_GESS.c   
     ├── eig_test.c   
     └── svd_test.c   
-'''
+```
 15 directories, 25 files
