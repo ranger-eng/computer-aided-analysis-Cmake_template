@@ -11,3 +11,46 @@ usage:
 > ./bin/*executables*  
 
 
+.
+├── CMakeLists.txt  
+├── README.md  
+├── include  
+│   ├── CMakeLists.txt  
+│   ├── Matrix_Utils.h  
+│   └── paths.h.in  
+├── modules  
+│   ├── CMakeLists.txt  
+│   ├── paths.F90.in  
+│   ├── port3.d  
+│   │   ├── README  
+│   │   ├── example.d  
+│   │   │   ├── README  
+│   │   │   ├── tdeigen.f  
+│   │   │   ├── tdgess.f  
+│   │   │   ├── teigen.f  
+│   │   │   └── tgess.f  
+│   │   ├── makefile  
+│   │   └── src.d  
+│   │       ├── EIGEN.d  
+│   │       ├── GESS.d  
+│   │       ├── blas.d  
+│   │       ├── frame.d  
+│   │       ├── libport3.a  
+│   │       └── util.d  
+│   └── svdc.f  
+├── results  
+│   ├── HW1  
+│   │   ├── prob1_c.gnu  
+│   │   └── prob1_f.gnu  
+│   ├── HW2  
+│   │   └── prob3.gnu  
+│   └── HW3  
+│       ├── prob2.gnu  
+│       └── prob4.gnu  
+└── src   
+    ├── CMakeLists.txt   
+    ├── MAIN_GESS.c   
+    ├── eig_test.c   
+    └── svd_test.c   
+
+15 directories, 25 files
