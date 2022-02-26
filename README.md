@@ -12,6 +12,8 @@ usage:
 
 
 ```
+${CMAKE_SOURCE_DIR} = 
+./
 ├── CMakeLists.txt  
 ├── README.md  
 ├── include  
@@ -53,4 +55,32 @@ usage:
     ├── eig_test.c   
     └── svd_test.c   
 ```
-15 directories, 25 files
+```
+${PROJECT_BINARY_DIR} = 
+./build
+├── CMakeCache.txt
+├── Makefile
+├── bin
+│   ├── F2C_test
+│   ├── eig_test
+│   └── svd_test
+├── cmake_install.cmake
+├── include
+│   ├── Makefile
+│   ├── cmake_install.cmake
+│   └── paths.h
+├── lib
+│   ├── libpaths_f.a
+│   ├── libport3.a
+│   └── libsvdc.a
+├── modules
+│   ├── Makefile
+│   ├── cmake_install.cmake
+│   ├── paths.F90
+│   └── paths.mod
+└── src
+    ├── Makefile
+    ├── cmake_install.cmake
+    └── fc_mangle.h
+```
+5 directories, 19 files
