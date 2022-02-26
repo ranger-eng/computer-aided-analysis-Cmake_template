@@ -1,0 +1,4 @@
+module paths
+    implicit none
+    character(len = 255) :: RESULT_PATH = "@PROJECT_BINARY_DIR@/../results"
+end module

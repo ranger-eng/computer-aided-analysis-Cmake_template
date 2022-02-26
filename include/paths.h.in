@@ -1,0 +1,2 @@
+#pragma once
+char *RESULTS_DIR = "@PROJECT_BINARY_DIR@/../results";
